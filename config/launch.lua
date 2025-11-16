@@ -6,7 +6,7 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'C:\\SoftWare\\Git\\bin\\bash.exe' }
+   options.default_prog = { 'nu.exe' }
    options.launch_menu = {
       { label = 'PowerShell', args = { 'powershell' } },
       {
