@@ -13,11 +13,11 @@ return {
 
    -- color scheme
    -- colors = colors,
-   color_scheme = 'Gruvbox dark, medium (base16)',
+   color_scheme = 'catppuccin-frappe',
 
    -- background
    window_background_opacity = 0.95,
-   -- win32_system_backdrop = 'Acrylic',
+   win32_system_backdrop = 'Acrylic',
    background = {
       {
          source = { File = wezterm.config_dir .. '/backdrops/null.png' },
